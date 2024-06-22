@@ -33,12 +33,12 @@ export default function ThemeProvider({
   useEffect(() => {
     const root = window.document.documentElement;
 
-    root.classList.remove('light', 'dark');
+    root.classList.remove('light', 'blue');
 
     if (theme === 'system') {
-      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
+      const systemTheme = window.matchMedia('(prefers-color-scheme: light)')
         .matches
-        ? 'dark'
+        ? 'blue'
         : 'light';
 
       root.classList.add(systemTheme);

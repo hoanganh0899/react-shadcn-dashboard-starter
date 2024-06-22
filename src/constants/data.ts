@@ -8,17 +8,17 @@ export const navItems: NavItem[] = [
     label: 'Dashboard'
   },
   {
-    title: 'Students',
+    title: 'Orders',
     href: '/student',
-    icon: 'user',
-    label: 'Student'
-  },
-  {
-    title: 'Login',
-    href: '/login',
-    icon: 'login',
-    label: 'Login'
+    icon: 'shopping',
+    label: 'Orders'
   }
+  // {
+  //   title: 'Login',
+  //   href: '/login',
+  //   icon: 'login',
+  //   label: 'Login'
+  // }
 ];
 
 export const users = [

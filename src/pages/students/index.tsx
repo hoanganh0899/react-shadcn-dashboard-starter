@@ -29,7 +29,7 @@ export default function StudentPage() {
 
   return (
     <div className="p-5">
-      <PageHead title="Student Management | App" />
+      <PageHead title="Orders | TebBay" />
       <StudentsTable
         users={users}
         page={page}
